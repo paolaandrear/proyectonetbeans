@@ -24,8 +24,8 @@ public class Prueba {
         
         int respuesta=Integer.parseInt(JOptionPane.showInputDialog(null,"Desea hacer una suma? \n1. si  \n2 no"));
         if (respuesta==1) {
-           num1=Integer.parseInt(JOptionPane.showInputDialog("ingrese el numero 1"));
-           num2=Integer.parseInt(JOptionPane.showInputDialog("ingrese el numero 2"));
+           num1=Integer.parseInt(JOptionPane.showInputDialog("ingrese el primer numero 1"));
+           num2=Integer.parseInt(JOptionPane.showInputDialog("ingrese el segundo numero 2"));
            suma = num1+num2;
            JOptionPane.showMessageDialog(null,"el resultado de la suma es: "+suma);
         }

@@ -18,7 +18,13 @@ public class Prueba {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        JOptionPane.showMessageDialog(null, "Te Amo <3!");
+        int num1=100;
+        int num2=800;
+        int suma=0;
+        suma=num1+num2;
+        
+        JOptionPane.showMessageDialog(null, "Te Amo <3!"+"el resultado es"+suma);
+        
     }
     
 }

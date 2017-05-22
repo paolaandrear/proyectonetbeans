@@ -18,13 +18,17 @@ public class Prueba {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int num1=100;
-        int num2=800;
-        int suma=0;
-        suma=num1+num2;
+      int num1;
+      int num2;
+      int suma;
         
-        JOptionPane.showMessageDialog(null, "Te Amo <3!"+"el resultado es"+suma);
-        
+        int respuesta=Integer.parseInt(JOptionPane.showInputDialog(null,"Desea hacer una suma? \n1. si  \n2 no"));
+        if (respuesta==1) {
+           num1=Integer.parseInt(JOptionPane.showInputDialog("ingrese el numero 1"));
+           num2=Integer.parseInt(JOptionPane.showInputDialog("ingrese el numero 2"));
+           suma = num1+num2;
+           JOptionPane.showMessageDialog(null,"el resultado de la suma es: "+suma);
+        }
     }
     
 }
